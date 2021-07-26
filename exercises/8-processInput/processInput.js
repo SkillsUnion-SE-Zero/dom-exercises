@@ -16,6 +16,10 @@
   Where NAME and EMAIL represent the information the user has
   inserted name and email inputs
 
+  If this method is correctly implemented and called in index.js 
+  you should see output similar to process-input-example.png after 
+  User has added name and email and clicked "Send message" button
+
   Helpful resources: 
     https://www.w3schools.com/jsref/met_document_addeventlistener.asp
     https://www.freecodecamp.org/news/javascript-addeventlistener-example-code/

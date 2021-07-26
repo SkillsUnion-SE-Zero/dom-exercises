@@ -26,7 +26,7 @@
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/320px-IBM_logo.svg.png"
       }
     ]
-    addClients("TeamSkills", "https://picsum.photos/id/1/200/300")
+    addClients(clients)
     Should render each client's name and image
 
   Helpful resources: 

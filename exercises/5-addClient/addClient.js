@@ -14,7 +14,12 @@
   Example: 
     addClient("TeamSkills", "https://picsum.photos/id/1/200/300")
     should render TeamSkills and the image to Clients page
-  
+
+    You are welcome to try it out with index.js and see the change 
+    in html. 
+    Please have a look at the expected output in add-client-example.png 
+    when addClient iscorrectly implemented and called from index.js
+
   Helpful resources: 
     https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment
     https://developer.mozilla.org/en-US/docs/Web/API/Element/append
