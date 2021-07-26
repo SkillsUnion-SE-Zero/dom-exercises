@@ -1,0 +1,32 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]s?$": "babel-jest"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "axios": "^0.21.1",
+    "http-server": "^0.12.3",
+    "jasmine": "^3.8.0",
+    "jasmine-fail-fast": "^2.0.1",
+    "jest": "^27.0.6",
+    "jsdom": "^16.6.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.8"
+  }
+}
