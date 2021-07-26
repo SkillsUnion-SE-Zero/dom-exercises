@@ -67,7 +67,7 @@ describe('8 processInput', () => {
     expect(confirmationContainer.innerHTML).toContain(email)
   })
 
-  it('renders full message after click', () => {
+  it('Renders full message after click', () => {
     const confirmationContainer = document.querySelector('#submit-confirmation')
     const submitButton = document.querySelector('#submit')
     const name = "Linda"
