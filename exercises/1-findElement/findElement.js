@@ -16,9 +16,8 @@
 
 */
 
-const findElement = (selector) => {
+const findElement = () => {
   // Insert code for findElement within this function
-  return document.querySelector(selector)
 }
 
 export default findElement
